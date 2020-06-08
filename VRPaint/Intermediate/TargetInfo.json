@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VRPaint",
+			"Path": "D:\\unreal\\VRPaint\\Source\\VRPaint.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VRPaintEditor",
+			"Path": "D:\\unreal\\VRPaint\\Source\\VRPaintEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

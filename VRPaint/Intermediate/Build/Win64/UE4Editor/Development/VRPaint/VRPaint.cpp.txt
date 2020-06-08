@@ -1,0 +1,2 @@
+D:\unreal\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\Definitions.VRPaint.h
+d:\unreal\vrpaint\source\vrpaint\VRPaint.h

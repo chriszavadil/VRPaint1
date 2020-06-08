@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VRPaint.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{65E8E8E5-3948-45A1-9AAF-65BD16A41D4E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRPaint.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VRPaintEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AE9F5D08-EC98-403C-BF52-58A458490F40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VRPaint">
+      <UniqueIdentifier>{6053125F-1C95-4930-A435-C80B7EC223DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRPaint\VRPaint.Build.cs">
+      <Filter>Source\VRPaint</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VRPaint\VRPaint.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\VRPaint.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRPaint\VRPaintGameModeBase.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\VRPaintGameModeBase.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
