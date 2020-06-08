@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRPaint.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{65E8E8E5-3948-45A1-9AAF-65BD16A41D4E}</UniqueIdentifier>
+      <UniqueIdentifier>{36F67FF5-79FB-4A58-8BCF-EFBF687295CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRPaint.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\VRPaintEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{AE9F5D08-EC98-403C-BF52-58A458490F40}</UniqueIdentifier>
+      <UniqueIdentifier>{98143F6C-BE2C-4D15-9D9F-8428F035809C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +25,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRPaint">
-      <UniqueIdentifier>{6053125F-1C95-4930-A435-C80B7EC223DC}</UniqueIdentifier>
+      <UniqueIdentifier>{C09A730D-F0C6-4E48-8214-BCBB64DE2B24}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VRPaint\HandController.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\HandController.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
     <None Include="..\..\Source\VRPaint\VRPaint.Build.cs">
       <Filter>Source\VRPaint</Filter>
     </None>
@@ -41,5 +48,21 @@
     <ClInclude Include="..\..\Source\VRPaint\VRPaintGameModeBase.h">
       <Filter>Source\VRPaint</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\VRPaint\VRPawn.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\VRPawn.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRPaint\Stroke.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRPaint\Stroke.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

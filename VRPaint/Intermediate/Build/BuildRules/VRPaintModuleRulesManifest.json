@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\unreal\\VRPaint\\Source\\VRPaint\\VRPaint.Build.cs",
-		"D:\\unreal\\VRPaint\\Source\\VRPaint.Target.cs",
-		"D:\\unreal\\VRPaint\\Source\\VRPaintEditor.Target.cs"
+		"D:\\VRPaint1\\VRPaint1\\VRPaint\\Source\\VRPaint\\VRPaint.Build.cs",
+		"D:\\VRPaint1\\VRPaint1\\VRPaint\\Source\\VRPaint.Target.cs",
+		"D:\\VRPaint1\\VRPaint1\\VRPaint\\Source\\VRPaintEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.1"
 }
