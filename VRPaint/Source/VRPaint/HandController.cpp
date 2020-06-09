@@ -21,6 +21,9 @@ AHandController::AHandController()
 void AHandController::BeginPlay()
 {
 	Super::BeginPlay();
+
+	
+	
 	
 }
 
@@ -29,16 +32,22 @@ void AHandController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (CurrentStroke)
+	{
+		CurrentStroke->Update(GetActorLocation());
+	}
+
 }
 
 
 void AHandController::TriggerPressed()
 {
-	AStroke* Stroke = GetWorld()->SpawnActor<AStroke>(StrokeClass);
-	Stroke->SetActorLocation(GetActorLocation());
+	CurrentStroke = GetWorld()->SpawnActor<AStroke>(StrokeClass);
+	CurrentStroke->SetActorLocation(GetActorLocation());
 }
 
 void AHandController::TriggerReleased()
 {
+	CurrentStroke = nullptr;
 }
 
