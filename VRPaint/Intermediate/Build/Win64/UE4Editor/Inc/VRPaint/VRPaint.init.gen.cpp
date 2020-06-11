@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeVRPaint_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB36B0184,
+				0x1A134D79,
 				0xC40888CB,
 				METADATA_PARAMS(nullptr, 0)
 			};

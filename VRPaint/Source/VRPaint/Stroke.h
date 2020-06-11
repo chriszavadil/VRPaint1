@@ -20,12 +20,26 @@ public:
 
 
 private:
+
+	FTransform GetNextSegmentTransform(FVector CurrentLocation) const;
+
+	FTransform GetNextJointTransform(FVector CurrentLocation) const;
+
+	FVector GetNextSegmentScale(FVector CurrentLocation) const;
+	FQuat GetNextSegmentRotation(FVector CurrentLocation) const;
+	FVector GetNextSegmentLocation(FVector CurrentLocation) const;
+
 	// Components
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
 
+	// Primary Mesh
 	UPROPERTY(VisibleAnywhere)
 	UInstancedStaticMeshComponent* StrokeMeshes;
+
+	// Gap filling mesh
+	UPROPERTY(VisibleAnywhere)
+	UInstancedStaticMeshComponent* JointMeshes;
 
 	// State
 	FVector PreviousCursorLocation;
