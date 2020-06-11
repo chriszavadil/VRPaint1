@@ -64,4 +64,19 @@
       <Filter>Source\VRPaint</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\VRPaint\Saving">
+      <UniqueIdentifier>{87a2c436-9715-4572-8d27-1816793a749d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRPaint\Saving\PainterSaveGame.h">
+      <Filter>Source\VRPaint\Saving</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRPaint\Saving\PainterSaveGame.cpp">
+      <Filter>Source\VRPaint\Saving</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
