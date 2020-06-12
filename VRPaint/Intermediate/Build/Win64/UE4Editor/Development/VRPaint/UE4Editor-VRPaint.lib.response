@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\VRPaintEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PainterSaveGame.cpp.obj"
+"D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PaintingGrid.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\HandControllerBase.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PaintBrushHandController.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\Stroke.cpp.obj"
@@ -18,6 +19,7 @@
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\HandControllerBase.gen.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PaintBrushHandController.gen.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PainterSaveGame.gen.cpp.obj"
+"D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\PaintingGrid.gen.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\Stroke.gen.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\UIPointerHandController.gen.cpp.obj"
 "D:\VRPaint1\VRPaint1\VRPaint\Intermediate\Build\Win64\UE4Editor\Development\VRPaint\VRPaint.init.gen.cpp.obj"

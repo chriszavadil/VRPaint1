@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRPaint.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A638131A-C106-4A06-BBC4-CD27DE19BF58}</UniqueIdentifier>
+      <UniqueIdentifier>{A99F6F7A-26E0-4483-9748-6AB248785734}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRPaint.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3A3CE580-5B2F-450F-8869-7B1A2163F55E}</UniqueIdentifier>
+      <UniqueIdentifier>{70EA2CE6-A267-4953-8890-216DC36676B2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,12 +28,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRPaint">
-      <UniqueIdentifier>{8B2E7BD8-3D4A-4C2C-A4BE-7056676DA1AE}</UniqueIdentifier>
+      <UniqueIdentifier>{ED71A6D4-541B-44AC-8D21-4C0A0692221F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\VRPaint\HandControllerBase.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\HandControllerBase.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRPaint\PaintBrushHandController.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\PaintBrushHandController.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\VRPaint\Stroke.cpp">
       <Filter>Source\VRPaint</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\VRPaint\Stroke.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRPaint\UIPointerHandController.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\UIPointerHandController.h">
       <Filter>Source\VRPaint</Filter>
     </ClInclude>
     <None Include="..\..\Source\VRPaint\VRPaint.Build.cs">
@@ -57,38 +75,32 @@
     <ClInclude Include="..\..\Source\VRPaint\VRPawn.h">
       <Filter>Source\VRPaint</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source\VRPaint\Saving">
-      <UniqueIdentifier>{87a2c436-9715-4572-8d27-1816793a749d}</UniqueIdentifier>
+      <UniqueIdentifier>{91E0D726-3D65-45F0-87E9-8B8E08631EF0}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\VRPaint\Saving\PainterSaveGame.h">
-      <Filter>Source\VRPaint\Saving</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\VRPaint\PaintBrushHandController.h">
-      <Filter>Source\VRPaint</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\VRPaint\HandControllerBase.h">
-      <Filter>Source\VRPaint</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\VRPaint\UIPointerHandController.h">
-      <Filter>Source\VRPaint</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\VRPaint\Saving\PainterSaveGame.cpp">
       <Filter>Source\VRPaint\Saving</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\VRPaint\PaintBrushHandController.cpp">
-      <Filter>Source\VRPaint</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\VRPaint\HandControllerBase.cpp">
-      <Filter>Source\VRPaint</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\VRPaint\UIPointerHandController.cpp">
-      <Filter>Source\VRPaint</Filter>
+    <ClInclude Include="..\..\Source\VRPaint\Saving\PainterSaveGame.h">
+      <Filter>Source\VRPaint\Saving</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\VRPaint\UI">
+      <UniqueIdentifier>{0d0b9786-f11b-4371-90af-92236149f1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\VRPaint\UI\PaintingPicker">
+      <UniqueIdentifier>{a2caf1bf-2e6b-4ec0-beea-1581fdeb5e8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingGrid.h">
+      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingGrid.cpp">
+      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
