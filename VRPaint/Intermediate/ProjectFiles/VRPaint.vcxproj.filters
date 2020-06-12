@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRPaint.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A99F6F7A-26E0-4483-9748-6AB248785734}</UniqueIdentifier>
+      <UniqueIdentifier>{9BAB978E-6B5C-4903-AB41-49784A10F7F1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRPaint.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{70EA2CE6-A267-4953-8890-216DC36676B2}</UniqueIdentifier>
+      <UniqueIdentifier>{C3D0163D-6F9D-4714-BE54-FA4B45747663}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRPaint">
-      <UniqueIdentifier>{ED71A6D4-541B-44AC-8D21-4C0A0692221F}</UniqueIdentifier>
+      <UniqueIdentifier>{B80DE573-0A3F-482D-8796-7CC8A7098088}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRPaint\HandControllerBase.cpp">
       <Filter>Source\VRPaint</Filter>
@@ -76,7 +76,7 @@
       <Filter>Source\VRPaint</Filter>
     </ClInclude>
     <Filter Include="Source\VRPaint\Saving">
-      <UniqueIdentifier>{91E0D726-3D65-45F0-87E9-8B8E08631EF0}</UniqueIdentifier>
+      <UniqueIdentifier>{EE6B039F-AD1D-4B1C-A4BD-026CC03D1910}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRPaint\Saving\PainterSaveGame.cpp">
       <Filter>Source\VRPaint\Saving</Filter>
@@ -84,23 +84,23 @@
     <ClInclude Include="..\..\Source\VRPaint\Saving\PainterSaveGame.h">
       <Filter>Source\VRPaint\Saving</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source\VRPaint\UI">
-      <UniqueIdentifier>{0d0b9786-f11b-4371-90af-92236149f1dc}</UniqueIdentifier>
+      <UniqueIdentifier>{472EE943-3F25-4578-B5DA-6A5513BC8C6F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\VRPaint\UI\PaintingPicker">
-      <UniqueIdentifier>{a2caf1bf-2e6b-4ec0-beea-1581fdeb5e8e}</UniqueIdentifier>
+      <UniqueIdentifier>{EAA03FC2-0BCE-4284-94D9-A2CAEE0700A0}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingGrid.h">
-      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingGrid.cpp">
       <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingGrid.h">
+      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingPicker.cpp">
+      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRPaint\UI\PaintingPicker\PaintingPicker.h">
+      <Filter>Source\VRPaint\UI\PaintingPicker</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

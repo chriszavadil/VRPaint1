@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeVRPaint_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x48A5065F,
-				0x2742439B,
+				0x59A34541,
+				0xFD37CC56,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
