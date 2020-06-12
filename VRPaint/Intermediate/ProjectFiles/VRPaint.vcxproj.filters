@@ -30,12 +30,6 @@
     <Filter Include="Source\VRPaint">
       <UniqueIdentifier>{8B2E7BD8-3D4A-4C2C-A4BE-7056676DA1AE}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\VRPaint\HandController.cpp">
-      <Filter>Source\VRPaint</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\VRPaint\HandController.h">
-      <Filter>Source\VRPaint</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\VRPaint\Stroke.cpp">
       <Filter>Source\VRPaint</Filter>
     </ClCompile>
@@ -73,10 +67,28 @@
     <ClInclude Include="..\..\Source\VRPaint\Saving\PainterSaveGame.h">
       <Filter>Source\VRPaint\Saving</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\VRPaint\PaintBrushHandController.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRPaint\HandControllerBase.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRPaint\UIPointerHandController.h">
+      <Filter>Source\VRPaint</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\VRPaint\Saving\PainterSaveGame.cpp">
       <Filter>Source\VRPaint\Saving</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRPaint\PaintBrushHandController.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRPaint\HandControllerBase.cpp">
+      <Filter>Source\VRPaint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRPaint\UIPointerHandController.cpp">
+      <Filter>Source\VRPaint</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

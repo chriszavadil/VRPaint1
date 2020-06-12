@@ -1,5 +1,7 @@
 D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\Saving\PainterSaveGame.h
-D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\HandController.h
+D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\PaintBrushHandController.h
 D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\Stroke.h
-D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\VRPaintGameModeBase.h
+D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\HandControllerBase.h
 D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\VRPawn.h
+D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\VRPaintGameModeBase.h
+D:\VRPaint1\VRPaint1\VRPaint\Source\VRPaint\UIPointerHandController.h
